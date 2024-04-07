@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 550px;
+    background-color: black;
+    padding: 5px 20px 0px 20px;
+    border: 2px solid white;
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 5px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 75px 0px;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    box-shadow: none;
+    font-size: 40px;
+}
+form input.zero{
+    width: 113px;
+    background-color: rgb(53, 53, 53);
+}
+form input.number{
+    background-color: rgb(53, 53, 53);
+}
+form input.string{
+    background-color: orange;
+}
+form input.tops{
+    background-color: grey;
+}
+.line{
+    height: 3px;
+    width: 110px;
+    background-color: white;
+    margin-left: 65px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+input:active{
+    opacity: 0.6;
+}
